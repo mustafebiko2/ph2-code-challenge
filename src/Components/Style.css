@@ -1,0 +1,101 @@
+/* index.css */
+
+/* Styles for the header */
+.header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-container h1 {
+    margin: 0;
+  }
+  
+  /* Styles for the search input */
+  .search-input-container {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  /* Styles for the transaction form */
+  .transaction-form-container {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .transaction-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .transaction-form input[type="text"],
+  .transaction-form input[type="number"] {
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .transaction-form button {
+    margin-top: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the transaction table */
+  .transaction-table-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .transaction-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-table td {
+    background-color: #fff;
+  }
+  
+  .transaction-table th:first-child,
+  .transaction-table td:first-child {
+    border-left: none;
+  }
+  
+  .transaction-table th:last-child,
+  .transaction-table td:last-child {
+    border-right: none;
+  }
+  
